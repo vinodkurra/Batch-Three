@@ -1,0 +1,32 @@
+HTML
+
+HYPER TEXT -> Linking together of different pages in we b application
+
+MARKUP LANGUAGE - with all html content to tell a web browser how to structure the to display the layout
+
+Prerequisites to learn HTML
+
+1. text editor like : note pad, nodepad ++ or visual studio code || sublime || intelli || eclipse;
+2. folders and files creation
+3. how to type content + save it computer
+4. images in different formats JPEG, JPG, PNG.
+
+Frontend enginner
+web designer
+full stack developer
+
+basics
+
+tags -
+
+linking + text linking + image source
+
+1. headers
+2. Paragraphs
+3. break // self closing tag <br />
+4. center
+5. hr // <hr />
+6. pre // preserve formatting tag
+7. listing tags //
+8. anchor tag // <a  > </a>
+9. image tag // <img src=""  />

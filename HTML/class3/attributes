@@ -1,0 +1,42 @@
+Attributes 
+
+these are optional
+using these we can provide additional information to HTML elements
+combination of name & value pairs
+for a single element we may multiple attributes.
+
+
+<tag_name  name="value" > .....  </tag_name>
+
+
+align   // left, right, center
+title // "user defined string"
+style // Allows to write inline CSS for an element
+
+html - dir //  ltr (default value) & rtl - is used for arabic languages
+
+html - lang // en, fr ... 
+
+
+Boolean Attributes
+
+disabled
+readonly
+required
+autocomplete
+
+
+Generic Attributes
+
+align / horizontally aligns tags // right, left, center
+valign / vertically aligns tags //  top, middle, bottom
+bgcolor / backgroud color // #000000  
+width // we can provide width fo that element
+height // we can provide height fo that element
+title // pop-up  || tool-tip info about that elemt
+
+
+backgroud /  url // this places background image 
+
+id // used for styling
+class // used for styling

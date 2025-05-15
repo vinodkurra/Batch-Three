@@ -1,0 +1,50 @@
+CSS -> cascading style sheet
+
+types
+
+1) inline styling => with in the line of element // style  // 
+2) internal styling => head -> 
+
+<style> 
+
+    p {
+
+    }
+
+ </style>
+
+3) external styling // we can maintain all our styless into a separate css file.
+
+
+advantages :
+responsive css // media queries
+device width 
+
+full control on html page handling custom layouts colors typography, visual representation
+
+reusability 
+
+faster loading 
+
+
+syntax : 
+
+
+direct element  : to apply a css for all the same elements in document 
+selector {
+    property : value;
+
+}
+
+
+using id  // to apply styles for single target element
+
+#button_selector {
+    property: value;
+}
+
+using className // target all elements with same class attribute
+
+.button_styles {
+    property : value
+}

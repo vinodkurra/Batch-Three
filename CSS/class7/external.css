@@ -1,0 +1,17 @@
+body {
+  background-color: yellowgreen;
+}
+p {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.campaign {
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #052a63;
+  text-align: center;
+}

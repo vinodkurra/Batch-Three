@@ -1,0 +1,60 @@
+Comments 
+
+/* comments */
+
+
+
+Colors
+
+
+RGB -> rgb(22, 55, 77) // rgb(red, green, blue)
+
+HEX -> #rrggbb -> #000000  ||  #ffffff
+
+HSL ->  (hue, saturation , lightness)  // hsl(35, 100%, 50%)
+
+
+
+Backgrounds :
+
+background-color  // color code
+background-image // using online or offline url
+background-repeat  // default will repeat and we can manage by other values
+background-attachment // sets background image is fixed or scrolls with the rest of the page
+background : shorthand syntax for combining all background properties
+
+
+
+body {
+  background-color: lightseagreen;
+  background-image: url("https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+//  color, image url, repeat/not , attachment , position. 
+
+body{
+    background : #fffff url("some url) no-repeat right top; 
+}
+
+
+borders : it allows you to specify a line around the element in different styles
+
+p {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: blue;
+  border-top-style: dotted;
+  border-bottom-style: double;
+}
+
+short hand syntax
+p{
+    border : 2px dotted blue;
+    
+}
+
+
+border - radius  -> is used to add rounded borders to an element

@@ -1,0 +1,25 @@
+body {
+  background-color: lightseagreen;
+  background-image: url("https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+/* This is styles of campaign header */
+
+/* this is 
+multi line 
+comment */
+.campaign {
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #052a63; /* this is primary color */
+  text-align: center;
+}

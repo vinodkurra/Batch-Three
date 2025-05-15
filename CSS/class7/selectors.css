@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+  font-weight: 800;
+}
+
+p {
+  color: blue;
+  font-style: italic;
+}
+
+#learning {
+  color: lightgreen;
+  font-family: Verdana;
+}
+
+.learning_class {
+  background-color: darkcyan;
+  color: darkorange;
+}

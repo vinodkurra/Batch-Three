@@ -1,0 +1,13 @@
+p {
+  color: #000000;
+  font-size: 16px;
+  width: 500px;
+
+  border-width: 2px;
+  border-style: dashed;
+  border-color: blue;
+  border-top-style: dotted;
+  border-bottom-style: double;
+
+  border-radius: 8px;
+}

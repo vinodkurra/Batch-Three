@@ -1,0 +1,48 @@
+display none -> it wont show up in ui and with out space
+visually hidden  -> it will occupy the space
+
+
+position 
+
+default -> static
+sticky
+absolue
+relative
+fixed
+
+
+
+Flex-box 
+
+layout method
+
+items arrange rows columns
+
+responsive layout structure + easy to design 
+
+<div> - flex container
+
+all these are flex-items
+    <div></div>
+
+      <div></div>
+        <div></div>
+          <div></div>
+            <div></div>
+
+
+</div>
+
+display : flex;
+flex-direction :  default - row , column, column-reverse , row-reverse;
+
+align-items : default - flex-start , center, flex-end.
+
+justify-content : default : flex-start, center, flex-end, space-between, space-around, space-evenly
+
+
+
+
+
+Grid method
+

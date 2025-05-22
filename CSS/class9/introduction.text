@@ -1,10 +1,38 @@
-TEXT
+Margins -> 
+
+div -> to create space around elements
+
+margin-top
+margin-right
+margin-bottom
+margin-left
 
 
-text-align -> left , center , right   with in its width
-direction  ->   ltr  , rtl
-text-decoration -> underline, overline line-through
-text-transform -> uppercase, capitalize, lowercase
-letter-spacing -> create space between each letter
-line-height -> creates specified height for each line in the content
-word-spacing -> create space between each word
+margin :  top right bottom left; // 50px // 50px 20px
+
+
+
+Padding : 
+
+element -> border + margin + padding 
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+
+padding :  top right bottom left; // 50px // 50px 20px
+
+
+
+height & width
+
+we can apply static height and width for an element
+
+
+BOX MODAl  : content -> padding -> border -> margin
+
+
+
+

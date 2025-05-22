@@ -1,0 +1,8 @@
+.numbers {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  border: 2px solid blue;
+  padding: 10px;
+  height: 200px;
+}

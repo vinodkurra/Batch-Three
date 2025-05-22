@@ -1,0 +1,19 @@
+Grid
+
+grid-based layouts
+
+Grid container
+
+Grid Items
+
+
+disaply : grid
+grid-template-columns : changes the direction and items and provides specific width
+grid-template-rows : changes the direction and provides specific width
+gap
+
+grid-row
+grid-column
+
+
+ 

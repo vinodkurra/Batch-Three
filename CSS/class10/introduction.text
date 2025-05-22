@@ -1,0 +1,51 @@
+
+
+Pseudo-classes
+
+div {
+    property  :  value;  
+}
+
+#id{
+    property  :  value; 
+}
+
+.class{
+    property  :  value; 
+}
+
+1) Hover
+2) active
+3) focus
+
+
+identifier:pseudo-class {
+    property  :  value; 
+}
+
+
+pseudo elements
+
+identifier::psuedo-element {
+    property : value
+}
+
+
+opacity : 0 to 1
+
+
+!important.  // p : color red  :  !important
+
+
+position
+
+display || visually-hidden
+
+display flex  
+
+
+flex   & grid
+
+
+responsive 
+

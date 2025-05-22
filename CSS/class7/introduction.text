@@ -43,7 +43,7 @@ using id  // to apply styles for single target element
     property: value;
 }
 
-using className // target all elements with same class attribute
+using class // target all elements with same class attribute
 
 .button_styles {
     property : value

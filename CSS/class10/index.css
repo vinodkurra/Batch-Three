@@ -1,0 +1,43 @@
+.link {
+  color: red;
+}
+
+.link:hover {
+  color: pink;
+}
+
+.link:active {
+  color: blue;
+}
+
+p:first-child {
+  color: green;
+}
+
+.elements {
+  width: 200px;
+}
+
+.elements::first-line {
+  color: red;
+}
+
+.elements::first-letter {
+  color: green;
+}
+
+.elements::before {
+  content: "VINOD";
+}
+
+.elements::after {
+  content: "VINOD";
+}
+
+.test_image {
+  opacity: 0.5;
+}
+
+p {
+  color: lightsalmon !important;
+}

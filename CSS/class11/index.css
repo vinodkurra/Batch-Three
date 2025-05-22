@@ -1,0 +1,11 @@
+.numbers {
+  visibility: hidden;
+}
+
+.div1 {
+  padding: 10px;
+  border: 2px solid red;
+  position: sticky;
+  top: 0;
+  background-color: green;
+}

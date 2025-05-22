@@ -1,0 +1,14 @@
+responsive css : 
+
+using Media queries and Device width.
+
+responsive CSS
+
+
+
+Device Size	Width Range	Media Query
+Extra small phones	0 - 479px	(max-width: 479px)
+Small phones	480px - 767px	(min-width: 480px) and (max-width: 767px)
+Tablets	768px - 991px	(min-width: 768px) and (max-width: 991px)
+Small desktops	992px - 1199px	(min-width: 992px) and (max-width: 1199px)
+Large desktops	1200px and above	(min-width: 1200px)

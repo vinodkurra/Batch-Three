@@ -1,0 +1,79 @@
+variables : is a container used to store the data, later we can use and update.
+
+
+var, let, const
+ 
+
+
+var name = "Vinod"
+let name = "kumar"
+
+const age = 28
+
+
+
+
+VAR -> global scope
+var name = "vinod";
+
+var name = "kumar" // re declaring allowed
+
+
+name = "hello" // re assiging allowed
+
+
+
+LET -> local or funcional or block scope   
+let name ="vinod"
+
+let name = "kumar" //re declaring  not allowed
+
+name = "kumar" // re assign is allowed
+
+
+
+CONST -> local or funcional or block scope
+const name ="vinod"
+
+const name = "Kumar" //re declaring  not allowed
+
+name = "Kumar"  reassign - not allowed
+
+when the data is object or array we can modify its propeties and elements.
+
+
+let - recommended
+const -> for constants
+
+
+                  VAR            LET           CONST
+
+re-declaration:   allowed      not-allowed     not-allowed
+re-assigning:     allowed        allowed       not-allowed
+scope             global          block           block
+
+
+
+DATA TYPES:
+
+
+1) Primitive data types
+2) Non-Primitive data types
+
+
+Primitive data types: simple data storage types with single value.
+
+string //   "vinod" ||  'vinod'
+number //  65 || 65.9898
+boolean // true || false
+undefined //  let x;   default value is undefined ||  let x = undefined;
+null // let x = null;
+bigint // very large numbers
+symbol  // symbol()
+
+
+Non-Primitive data types // complex and store multiple values
+
+object // {name : "vinod", age : 65, info : {name : "vinod", age : 65, }, companies : [] } // collection of key:value pairs
+array // ["vinod", 76, {name : "vinod", age : 65, }, [1, 2, 3, 4]]  // collection of items
+function // block of reuable code

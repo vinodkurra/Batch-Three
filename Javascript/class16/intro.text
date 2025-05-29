@@ -1,0 +1,81 @@
+Data types:
+
+
+primitive - simple data -> single value
+
+1) string  //    "hello"  || 'hello'
+2) Number //   10 || 10.5 || -10
+3) Boolean // true || false
+4) undefined // let a;
+5) null //  let a=null 
+
+ Big int
+ Symbol 
+
+
+non-primitive -> complex -> multiple values
+
+object -> {name : "Vinod", age : 28, info : {}, roles : []} // object
+array -> [ "vinod", 28, {name : "vinod"}, [1, 2, 3,] ]  // object
+
+
+function // function callMe () {
+
+}
+
+type conversion -> 
+
+
+implicit type conversion :
+
+let value = "5" + 6   // 56
+let value2 = "5" * 6  // 15
+let value 3 = true + 1 // 2
+
+
+explicit type converions ; 
+
+strings
+
+String() // this will convert numbers to strings
+toString // array to string
+JSON.stringify() // array || object   to string
+JSON.prase()  // string to object || array
+
+
+const value = "{\"name\":\"vinod\",\"age\":25}"
+const convertedString =JSON.parse( value)
+console.log(convertedString)
+
+typeof method used for type checking.
+
+
+Numbers:
+
+Number() // string to number
+Number("56") // 56
+parseInt("23") // 23
+
+
+Boolean :  
+Boolean("value") // true // null, undefined, empty string, 0
+
+
+
+
+STRING - METHODS
+
+"Vinod"
+length : 1
+index : 0
+
+
+length // "vinod".length  // 5
+
+toUpperCase() // "vinod".toUpperCase() // "VINOD"
+
+toLowerCase() // "VINOD".toLowerCase() // "vinod"
+
+charAt(index) // "Vinod".charAt(2) // "n"
+
+includes(substring) // "Vinod".includes("ga") //  true || false

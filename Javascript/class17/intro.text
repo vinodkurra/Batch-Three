@@ -1,0 +1,94 @@
+String Methods :
+
+length // "vinod".length  // 5
+
+toUpperCase() // "vinod".toUpperCase() // "VINOD"
+
+toLowerCase() // "VINOD".toLowerCase() // "vinod"
+
+charAt(index) // "Vinod".charAt(2) // "n"
+
+includes(substring) // "Vinod".includes("ga") //  true || false
+
+const value = "Hello world";
+
+const slicedString = value.slice(0, 6);
+
+
+const value2 = "Hello world world";
+
+const findIndexOf  = value2.indexOf("world");
+
+const findLastIndexOfSubString = value2.lastIndexOf("world")
+
+
+
+const value3 = "a,b,c,d"
+
+const splittedString = value3.split(",")
+
+ 
+const value4 = "    Hello world     ";
+
+const trimmed = value4.trim()
+
+const value5 = "Apple";
+
+const repeatedString = value5.repeat(10)
+
+const value6 = "Hello user";
+
+const replaceString = value6.replace("user", "Vinod");
+
+
+const value7 = "Hello user, Here user can see his timeline and user account page";
+
+const replaceAllString = value7.replaceAll("user", "Vinod");
+
+
+
+Number Methods :
+
+
+const value = 85
+
+const toString = value.toString();
+
+const value2 = 85.2375745745883783;
+
+const fixedValue = value2.toFixed(2)
+ 
+const value3 = "12345.767676"
+
+const parseTheString = parseInt(value3);
+
+
+const value4 = "12345.767676"
+
+const parseTheFloat = parseFloat(value4);
+
+
+const value5 = "abcd";
+
+const isNotaNumber = isNaN(value5);
+
+
+
+MATH : 
+
+const mathRound = Math.round(4);
+
+const floorMethod = Math.floor(4.9);
+
+const ceilMethod  = Math.ceil(4.1);
+
+
+
+
+const getRandomNumber = Math.random();
+
+const String = getRandomNumber.toString()
+
+const exactValue = String.slice(2, String.length - 1)
+
+

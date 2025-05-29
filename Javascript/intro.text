@@ -1,0 +1,48 @@
+javascript
+
+var
+
+data types -> pre defined 
+
+functions
+
+
+
+conditions ->  if, else, if else, switch
+
+looping methods : 
+
+
+date format - methods
+
+
+browser methods
+
+window methods
+
+
+
+
+HTML -> to create web pages content - simple 
+CSS -> wep page -> layout + colors + size + alignment - simple 
+JS -> to programm the behaviour of web page, user actions and response - medium
+
+
+1) inline
+2) internal
+3) external
+
+
+ <script>
+      const myDiv = document.getElementById("myDiv");
+      console.log("myDiv", myDiv);
+      myDiv.innerHTML = "Hello I am learning JS";
+      myDiv.style.fontSize = "40px";
+      myDiv.style.color = "red";
+      document.getElementById("h1").style.display = "none";
+    </script>
+
+
+    variable // var, let, const 
+
+ 

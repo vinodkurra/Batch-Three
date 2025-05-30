@@ -1,0 +1,135 @@
+
+ARRAY METHODS :
+
+const fruits = ["apple", "banana", "carrot", "green apple", "grapes"];
+
+const value = fruits.indexOf("carrot"); // 2
+
+const value = fruits.lastIndexOf("carrot"); // 5
+
+const value2 = fruits.includes("grapes")  // true
+
+const value2 = fruits.includes("black grapes")  // false
+
+const value =  fruits.join("%") // "apple%banana%carrot%green apple%grapes%carrot"
+
+
+
+Conditions :
+
+::::::: :::   IF  :::::  ::::::
+
+if(condition){
+    statement 
+}
+
+
+let age = 20;
+const fruits = [];
+
+console.log(fruits.length)
+
+null || undefined || 0 || false || ""
+
+if(fruits.length){
+ console.log("I am react js")
+}
+
+::::::: :::   ELSE  :::::  ::::::
+
+if(condtion is false){
+    this wont execute
+}else{
+    this will execute
+}
+
+let age = 20;
+ 
+
+if(age == 20){
+ console.log("I am if block")
+}else{
+   console.log("I am else block")
+}
+
+::::::: ::: ELSE  IF  :::::  ::::::
+
+if(condtion is false){
+    this wont execute
+}else if( condition true){ // 
+    this will execute
+}else{
+    this will execute when both if and else is fails
+}
+
+
+let age = 20;
+ 
+
+if(age == 25){
+ console.log("I am if block")
+}else if(age == 30){
+   console.log("I am else if block")
+}else{
+  console.log("I am else block")
+}
+
+
+::::::: ::: TERNARY OPERATOR  :::::  ::::::
+
+condition ? statement 1 : statement2
+
+let age = 20;
+ 
+
+const value = age == 30 ? console.log("I am ternary statement 1") : console.log("I am statement 2")
+
+
+::::::: ::: SWITCH  :::::  ::::::
+
+switch(value){
+
+    case value:
+    console.log(case 1);
+    break;
+
+    case value:
+    console.log( case 2)
+    break;
+
+    default:
+    console.log(this is default)
+}
+
+
+let studentMarks = 58;
+ 
+
+switch(true){
+
+  case (studentMarks >= 36 && studentMarks < 50):
+  console.log("pass");
+  break;
+
+  case (studentMarks >= 50 && studentMarks < 75 ):
+  console.log("average");
+  break;
+
+  case (studentMarks >= 75 && studentMarks < 100):
+  console.log("good");
+  break;
+
+  case (studentMarks == 100):
+  console.log("Topper");
+  break;
+
+  default:
+    console.log("Failed")
+
+}
+
+
+
+==, ===, &&, ||
+
+while, do while, for, MAP, FILTER.

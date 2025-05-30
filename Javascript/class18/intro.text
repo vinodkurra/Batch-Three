@@ -1,0 +1,76 @@
+Boolean: 
+
+Boolean(value) // true || false
+
+invalid : 0, null, undefined, ""
+
+
+
+NULL : no Methods
+
+This is used indicate "no value"
+
+
+undefined : no Methods
+
+let name; // undefined;
+
+let name = undefined;
+
+
+
+object : collection key-value pairs  // {key : value, key : value, ....}
+
+
+const data = {name: "react", age : 8, roles : ["admin", "user"]}
+
+
+const keys = Object.keys(data) // ["name", "age", "role"] // 
+
+
+const values = Object.values(data) // ["react", 8, "frontend development"]
+
+const Entries = Object.entries(data) // [["name", "react"], ["age", 8], ["role", "frontend development"]]
+
+const hasProperty = Object.hasOwn(data, "info") // false // hasOwnProperty
+const hasProperty = Object.hasOwn(data, "age") // true  // hasOwnProperty
+
+to update any property in object
+
+object.property = new value;
+
+data.name = "advanced react";
+
+Object.freeze(data); // Freezes the object, prevents modifications.
+
+Object.seal(data) // Prevents Adding or Deleting properties.
+
+const isSimilar = Object.is("Vinod", "Vinod") // true
+
+
+
+ARRAY : Collection of items  // [1, 2, 3] || [1, "a", {name: "react"}, [1, 2, 3], null, undefined,  true];
+
+
+const Array = ["apple", "banana", "carrot"];
+
+Array.push("Green Apple") // ["apple", "banana", "carrot", "Green Apple"]
+
+Array.pop() // ["apple", "banana"]
+
+Array.shift() // ["banana", "carrot"]
+
+Array.unshift("Green Apple") // Array.unshift("Green Apple")
+
+const fruits = ["apple", "banana", "carrot"];
+
+const numbers = [1, 2, 3, 4];
+
+const total = fruits.concat(numbers) // ["apple", "banana", "carrot", 1, 2, 3, 4]
+
+
+const fruits = ["apple", "banana", "carrot", "green apple", "grapes"];
+
+const sliced = fruits.slice(0, 4) // ["apple", "banana", "carrot", "green apple"] // this will not effect the original array
+
+const spliced = fruits.splice(0, 4) // ["apple", "banana", "carrot", "green apple"] // this will effect the original array

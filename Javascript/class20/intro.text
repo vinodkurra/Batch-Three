@@ -1,0 +1,84 @@
+
+==, ===, &&, ||
+
+== : compare values with out considering about data types // "55" == 55  // true // looase equality
+
+=== : this will compare both value and its type : // "55" === 55 // false // strict equality
+
+
+
+&&  This will return the last value if all are true  other it will return the first false value
+
+99 && 44 && 66  // 66
+0 && 88 && null  // 0
+
+false && true        // false 
+true && true         // true
+true && false        // false
+false && false       // false
+
+
+
+||
+
+true || false     // true
+false || false    // false
+false || true     // true
+true   ||  true    // true
+
+
+88 || 77 || 66  //  88
+0 || 77 || 99 || null  // 77
+
+
+"", null, undefined, 
+
+
+
+while, do while, for, MAP, FILTER.
+
+::::::::::::  WHILE :::::::::::::::::::
+
+while(condition){
+    // block of code
+}
+
+
+ let i=0;
+
+while(i < 10){
+i++;   
+}
+
+
+::::::::::::::: DO WHILE ::::::::::::::::::::::
+
+do {
+ // block of code
+} while (condition)
+
+
+ let i=0;
+
+
+do {
+  console.log(" I am code inside do method", i)
+  
+} while (i > 0); 
+
+
+
+:::::::::::::::::::: FOR   :::::::::::::::::
+
+
+for(let i=0; i < 10; i++){
+
+  console.log("MY VALUE", i)
+}
+
+
+for(let i=10; i > 0 ; i--){
+
+console.log("MY VALUE", i)
+
+}

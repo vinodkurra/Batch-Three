@@ -1,0 +1,130 @@
+MAP, FILTER
+
+functions :
+
+self invoke || anounmous function =>  IIFE ->immediately invoked function expression
+
+
+(function functionName(parameters){
+
+    // function body
+
+    return something
+
+})();
+
+
+(function callMe(){
+
+  console.log("I am JS function")
+})();
+
+
+ 
+
+
+
+plane javascript function
+
+function functionName(parameters){
+
+    // function body
+
+    return something
+
+}
+
+functionName();
+
+
+ function callMe(){
+
+  console.log("I am JS function")
+} 
+
+callMe();
+
+ 
+
+arrow function
+
+const functionName=()=>{
+    //function body
+
+    return is optional
+}
+
+
+const functionName = (x) => x * 10;
+
+
+const functionName = x => x * 10;
+
+
+const callMe = (x) => console.log("I am JS function", x);
+
+callMe(10);
+
+
+:::::::::::: PARAMETERS ::::::::::::::::
+
+
+const callMe = (a, b, c) => {
+
+    const sum = a + b + c;
+    console.log(sum)
+    return sum // 11
+}
+
+
+callMe(2, 5, 4); // 11
+
+callMe(20, 30, 50) // 100
+
+
+const callMe = (x = 0, y = 1, z = 1)=>{
+  
+  const value = x * y * z
+  console.log(value);
+
+}
+
+callMe(2, 3, 4); // 24
+
+
+:::::::::::::: call back function ::::::::::::::::::::::::
+
+
+const callMe = (a, b, c) =>{
+    a // number 
+    b // string 
+    c()
+}
+
+const newFunction = () =>{
+
+}
+
+callMe(3, "vinod", newFunction )
+
+
+
+const callMe = (x = 0, y = 1, callBackfunction)=>{
+ 
+  
+  const value = x + y;
+  console.log(value);
+
+
+callBackfunction(value);
+}
+
+const newFunction =(a) =>{
+ 
+ console.log("I am new function calling from parent", a)
+}
+
+callMe("Hello", "World", newFunction );
+
+ 
+ 

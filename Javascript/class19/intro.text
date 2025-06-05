@@ -81,7 +81,7 @@ if(age == 25){
 
 ::::::: ::: TERNARY OPERATOR  :::::  ::::::
 
-condition ? statement 1 : statement2
+condition ? statement 1 : statement2  
 
 let age = 20;
  

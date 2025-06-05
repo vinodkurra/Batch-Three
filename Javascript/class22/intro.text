@@ -1,0 +1,115 @@
+   const fruits = ["apple : 10", "banana", "carrot", "green apple", "grapes"];
+
+   MAP :=> 
+
+ 
+
+array.map((item, index) =>{
+ 
+    
+})
+
+const numbers = [2, 4, 6, 8];
+
+const newArray = numbers.map(item => item * 10);
+
+
+console.log(newArray)
+
+
+const data = [{name : "Ashok", grade : 85, age: 20},
+              {name : "baskar", grade : 72, age: 27},
+              {name : "charlie", grade : 65, age: 20},
+               {name : "devi", grade : 95, age: 22}];
+
+
+const studentSummary = data.map(student=>{
+  
+return {
+    
+name : student.name,
+grade : student.grade,
+age : student.age,
+isPassed : student.grade >=70,
+gradeCategory : student.grade >= 90 ? "A" : student.grade >= 80  ? "B" : student.grade >= 70 ? "C" : "F",
+message : student.grade >=70 ? `Great job ${student.name}` : `Sorry, ${student.name}, you need to improve.`                
+}
+
+})
+
+console.log(studentSummary)
+
+
+
+
+
+
+::::::::::::::::::: FILTER :::::::::::::::::::::::::::
+
+
+const numbers = [2, 4, 6, 8, 10, 23, 35, 67 ]
+
+arr.filter(item=> item >= 8 );
+
+
+
+const array = [2, 5, 6, 78, 9, 33, 55, 77, 88];
+
+const newArray = array.filter(item => item >= 10);
+
+console.log(newArray)
+
+
+const data = [{name : "Ashok", grade : 85, age: 20},
+              {name : "baskar", grade : 72, age: 27},
+              {name : "charlie", grade : 65, age: 20},
+               {name : "devi", grade : 95, age: 22}];
+
+const newArray = data.filter(item =>{
+  
+ return item.grade >=70
+})
+
+console.log(newArray)
+
+
+:::::::::::::::::::::::::: SOME ::::::::::::::::::::::::::
+
+const data = [{name : "Ashok", grade : 85, age: 20},
+              {name : "baskar", grade : 72, age: 27},
+              {name : "charlie", grade : 78, age: 20},
+               {name : "devi", grade : 100, age: 22}];
+
+const isTopper =  data.some(item => item.grade === 100 );  // boolean   true || false
+
+console.log(isTopper)
+
+
+
+::::::::::::::::::::::::::   EVERY  ::::::::::::::::::::::::::
+
+
+const data = [{name : "Ashok", grade : 85, age: 20},
+              {name : "baskar", grade : 72, age: 27},
+              {name : "charlie", grade : 66, age: 20},
+               {name : "devi", grade : 100, age: 22}];
+
+const isAllPassed =  data.every(item => item.grade >= 70);
+
+console.log(isAllPassed)
+
+
+
+::::::::::::::::::::::::  FIND ::::::::::::::::::::::
+
+
+const data = [{name : "Ashok", grade : 85, age: 20},
+              {name : "baskar", grade : 67, age: 27},
+              {name : "charlie", grade : 66, age: 20},
+               {name : "devi", grade : 100, age: 22}];
+
+const isTopper =  data.find(item => item.grade === 100 );
+
+console.log(isTopper)
+
+

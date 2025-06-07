@@ -1,0 +1,92 @@
+Destructuring :
+
+
+object :  { key : value, key : value, key : value}
+
+array : [element1, element2, ...]
+
+
+
+object Destructuring:
+
+const object = {property1 : value1 , property2 : value2}
+
+// Normal JS code
+
+const prop1 = object.property1;
+const prop2 = object.property2;
+
+// Destructuring code
+
+const {property1 , property2 } = object;
+
+const object = {name : "vinod", age : 29, role : "developer"};
+
+const {name, age, role} = object;
+
+console.log(name, age, role)
+
+
+
+
+array Destructuring :
+
+const array = ["apple", "banana", "carrot" , "green apple"];
+
+const [item1, item2, item3, item4] = array;
+
+
+const array = ["apple", "banana", "carrot" , "green apple"];
+
+const [ item1 ,item2, , item4 ] = array;
+
+
+console.log(item1, item2, item4)
+
+skip values ::
+const array = ["apple", "banana", "carrot" , "green apple"];
+
+const [  ,item2, , item4 ] = array;
+
+
+console.log( item2, item4)
+
+
+NESTED OBJECTS:
+
+const data = {
+    brand : "Maruthi", 
+    model : "swift",
+    info : {
+      price : "10 lacks",
+      color : "white"  
+    }
+}
+
+const price = data.info.price;
+
+const {brand, model, info : { price, color}} = data;
+
+console.log(brand, model,  price, color)
+
+
+NETSED ARRAYS : 
+
+const array =  ["apple", ["banana", "carrot"] , "green apple"];
+
+
+const array =  ["apple", ["banana", "carrot"] , "green apple"];
+
+
+const [item1, [child1, child2], item3] = array;
+
+console.log(item1, child1, child2, item3)
+
+
+skip values :
+const array =  ["apple", ["banana", "carrot"] , "green apple"];
+
+
+const [item1, [, child2], item3] = array;
+
+console.log(item1, child1, child2, item3)

@@ -52,7 +52,8 @@ re-declaration:   allowed      not-allowed     not-allowed
 re-assigning:     allowed        allowed       not-allowed
 scope             global          block           block
 
-
+ 
+ 
 
 DATA TYPES:
 

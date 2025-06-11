@@ -48,7 +48,7 @@ callMe();
 
 arrow function
 
-const functionName=()=>{
+const functionName =()=> {
     //function body
 
     return is optional
@@ -89,7 +89,7 @@ const callMe = (x = 0, y = 1, z = 1)=>{
 
 }
 
-callMe(2, 3, 4); // 24
+callMe(2, 3, 46); // 24
 
 
 :::::::::::::: call back function ::::::::::::::::::::::::

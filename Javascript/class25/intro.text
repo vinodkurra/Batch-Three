@@ -1,0 +1,79 @@
+:::::::::::::::: REST ::::::::::::::::
+
+::::ARRAY DESTRCTURING :::::
+
+const fruits = ["apple", "banana", "carrot", "grapes"];
+
+const [item1, item2, ...remaining] = fruits;
+
+console.log(remaining)
+
+const callMe = ([item1, rest ]) =>{
+console.log(rest)
+  
+}
+
+callMe(fruits)
+
+:::: OBJECT DESTRCTURING :::::
+
+const object = {name : "vinod", age : 29, role : "developer"};
+
+
+const {name, ...rest} = object
+console.log(rest)
+
+
+
+Asynchronous functions
+
+
+1) setTimeout()// call back function and 2000 
+
+vinod kumar
+
+clearTimeout
+
+
+setTimeout(()=>{
+    console.log("I am set time out code")
+}, 2000 )
+
+
+setInterval(callback function , interval) //  
+
+
+::::::::::::::: PROMISES ::::::::::::
+
+default : sync -> execute the code line by line
+
+ let pizzaOrder = new Promise((resolve, reject)=> {
+  let pizzaReady =  API
+
+  if(pizzaReady){
+ resolve("Pizza is ready")
+  }else{
+    
+ reject("Pizza is not yet ready")
+}
+})
+
+pizzaOrder.then(message =>  console.log(message))
+          .catch(error => console.log(error))
+
+
+
+
+fetch and axios
+
+
+async await + 
+
+try{
+
+}catch(){
+
+}
+finally {
+
+}

@@ -33,12 +33,13 @@ array Destructuring :
 
 const array = ["apple", "banana", "carrot" , "green apple"];
 
+
 const [item1, item2, item3, item4] = array;
 
 
 const array = ["apple", "banana", "carrot" , "green apple"];
 
-const [ item1 ,item2, , item4 ] = array;
+const [ item1 ,item2,  , item4 ] = array;
 
 
 console.log(item1, item2, item4)
@@ -65,7 +66,7 @@ const data = {
 
 const price = data.info.price;
 
-const {brand, model, info : { price, color}} = data;
+const {brand, model, info : { price}} = data;
 
 console.log(brand, model,  price, color)
 
@@ -87,6 +88,6 @@ skip values :
 const array =  ["apple", ["banana", "carrot"] , "green apple"];
 
 
-const [item1, [, child2], item3] = array;
+const [item1, [  child1, ], item3] = array;
 
 console.log(item1, child1, child2, item3)

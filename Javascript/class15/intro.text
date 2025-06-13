@@ -46,7 +46,7 @@ let - recommended
 const -> for constants
 
 
-                  VAR            LET           CONST
+                    VAR             LET            CONST
 
 re-declaration:   allowed      not-allowed     not-allowed
 re-assigning:     allowed        allowed       not-allowed

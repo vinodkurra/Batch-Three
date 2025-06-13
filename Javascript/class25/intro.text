@@ -69,11 +69,14 @@ fetch and axios
 
 async await + 
 
+    loader = true
 try{
 
-}catch(){
+    100 lines
 
+}catch(error){
+    name is not defines
 }
 finally {
-
+    loader = false
 }

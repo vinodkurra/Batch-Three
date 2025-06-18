@@ -1,0 +1,123 @@
+ES5
+2015 - ES6 - echma script 6 
+
+
+2016  :
+
+
+Array - includes methods
+
+const array = ["Apple", "bat", "cat", "ravi"];
+
+
+const isIncludes = array.includes("cat");
+
+
+console.log("isIncludes", isIncludes)
+
+
+
+2017 :  object.entries and object.values
+
+
+const info = { 
+      name : "vinod", 
+       age : 28
+  }
+
+const values = Object.values(info)
+const entries = Object.entries(info)
+
+console.log("entries", entries)
+console.log("values", values)
+ 
+
+
+ 2018 :   
+
+
+ let loader = true;
+ try{
+    API call
+    
+ }catch(error){
+    error
+}
+finally{
+    loader = false;
+}
+
+
+2019 : 
+
+String.trimEnd();
+String.trimStart();
+
+const name = "         Hello        ";
+
+const start = name.trimStart();
+const end = name.trimEnd();
+
+console.log("updated", start, end)
+
+
+2020
+
+string.matchAll();
+
+const name = "Hello I am user of this app and user from many years";
+
+const updated = name.matchAll('user')
+
+console.log("updated", updated) // ["user", "user"];
+
+??     //   const name = undefined ?? "Hello"
+
+
+const name = undefined ?? "Hello";
+
+console.log(name)
+
+
+
+?.    //   object?.name // 
+
+
+const array = undefined;
+
+const length = array.length // error saying can not read props of undefined;
+
+const length = array?.length
+
+ 
+
+
+ 2022 : 
+
+ string at()
+
+ arra at()
+
+
+ const string = "Hi I am vinod";
+const array = ["Apple", "bat", "cat", "ravi"];
+
+const value = string.at(-5);
+const array_Value = array.at(-3)
+console.log(value, array_Value)
+
+
+
+
+ Object.hasOwnProperty()
+
+  const info = { 
+      name : "vinod", 
+       age : 28
+  }
+
+const value = info.hasOwnProperty("role")
+console.log(value)
+
+
+

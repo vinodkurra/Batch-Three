@@ -1,0 +1,45 @@
+Cookies :
+
+Token : save 
+
+user prefrences :  light / dark
+
+analytics : home 
+
+
+
+document.cookie = `name=john; expires=${new Date()}; path="/"`;
+
+const cookies =  document.cookie;
+
+
+
+js-cookie  || npm install js-cookie
+
+
+
+
+
+
+Location : 
+
+
+window.location  
+
+
+const pathname =  window.location.pathname;
+
+const path = "/contact/130396/overview";
+
+const list = path.split("/")[2]
+
+console.log("list", list)
+
+
+history : 
+
+history.back();
+history.forward();
+
+
+
